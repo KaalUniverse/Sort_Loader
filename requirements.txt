@@ -1,0 +1,7 @@
+python-telegram-bot[all]>=20.0
+yt-dlp
+nest_asyncio
+pycryptodomex
+instaloader
+aiofiles
+python-dotenv
