@@ -34,7 +34,7 @@ class Config:
     # REMOVED: Cookie paths are no longer needed
     
     # Telegram limits
-    MAX_FILE_SIZE = 50 * 1024 * 1024  # 50MB
+    MAX_FILE_SIZE = 200 * 1024 * 1024  # 50MB
     
     # Performance settings
     MAX_WORKERS = 2  # Keep low on Kaggle (limited resources)
@@ -357,7 +357,7 @@ bot_manager = None
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handle /start"""
     msg = """
-🎥 **Kaggle Video Downloader Bot (No Cookies Mode)**
+🎥 ** Video Downloader **
 
 Supported platforms (Public videos only):
 🔴 YouTube
@@ -372,9 +372,9 @@ Supported platforms (Public videos only):
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handle /help"""
     msg = """
-📚 **Help (No Cookies Mode)**
+📚 **MaHaKAAl**
 
-This bot is running without cookies.
+
 
 **What will work:**
 ✅ Public YouTube videos
@@ -385,7 +385,7 @@ This bot is running without cookies.
 ❌ Most Instagram Reels/Stories
 ❌ Most Terabox links (they require login)
 
-Max size: 50MB
+Max size: 200MB
 """
     await update.message.reply_text(msg, parse_mode='Markdown')
 
