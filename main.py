@@ -27,7 +27,7 @@ class Config:
     """Bot configuration optimized for Kaggle"""
     
     # ⚠️ IMPORTANT: Add your bot token here
-    BOT_TOKEN = '8073463553:AAGhNEdg39NrA4eYkSO2aaWmMrEYqN2pvTM' 
+    BOT_TOKEN = '8579410731:AAE-fYCdQ4x2MBehiOWkx3ZGW2OzqdJT_S0' 
     
     # Kaggle-specific paths
     DOWNLOAD_DIR = '/kaggle/working/downloads'
