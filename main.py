@@ -41,7 +41,7 @@ def env_int(name: str, default: int) -> int:
         return default
 
 class Config:
-    BOT_TOKEN = os.getenv('BOT_TOKEN', '8499255651:AAG71ij2mYfnVIozzehMIq5ugiUG-m7kffQ')
+    BOT_TOKEN = os.getenv('BOT_TOKEN', '8579410731:AAE-fYCdQ4x2MBehiOWkx3ZGW2OzqdJT_S0')
     
     DOWNLOAD_DIR = '/kaggle/working/downloads'
     TEMP_DIR = '/kaggle/working/temp'
