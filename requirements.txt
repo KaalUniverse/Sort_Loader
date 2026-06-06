@@ -1,5 +1,5 @@
 python-telegram-bot[all]>=20.0
-yt-dlp
+yt-dlp>=2026.3.17
 nest_asyncio
 pycryptodomex
 instaloader
